@@ -1,0 +1,55 @@
+.accordion {
+    z-index: 11;
+    .accordion__item {
+        margin-bottom: 20px;
+        .accordion__item-trigger {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            .trigger__text {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 55px;
+                color: white;
+            }
+            .trigger__img {
+                position: relative;
+                margin-left: auto;
+                img {
+                    display: block;
+                }
+            }
+        }
+        .accordion__item-content {
+            display: none;
+            animation: fade .3s ease;
+            .content__text {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 170%;
+                color: #FFFFFF;
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+        }
+        &.accordion__item-active {
+            .trigger__text {
+                color: #1378EF;
+            }
+            .accordion__item-content {
+                display: flex;
+            }
+            .trigger__img {
+                img {
+                    transform: rotate(-90deg);
+                    transition: .3s all ease;
+                }
+            }
+        }
+    }
+    
+}
+

@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.avatar {
+  margin-bottom: 150px;
+  border-radius: 100%;
+  background: lightcyan;
+  width: 250px;
+  height: 250px;
+}
+.logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.btn {
+  margin-top: 25px;
+  background: #cecece;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,.3) 54%, rgba(252,176,69,1) 100%);
+  color: white;
+}
+.btn:hover {
+  transition: .3s all ease;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29, 1) 54%, rgba(252,176,69,1) 100%);
+
+}

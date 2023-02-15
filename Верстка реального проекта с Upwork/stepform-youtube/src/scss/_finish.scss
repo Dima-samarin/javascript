@@ -1,0 +1,28 @@
+.finish {
+    display: none;
+    // .finish__logo
+    &__logo {
+        margin-top: 50px;
+    }
+    // .finish__title
+    &__title {
+        font-style: normal;
+        font-weight: 494;
+        font-size: 50px;
+        line-height: 56px;
+        color: $blue;
+        margin-top: 40px;
+    }
+    // .finish__text
+    &__text {
+        font-style: normal;
+        font-weight: 375;
+        font-size: 20px;
+        line-height: 22px;
+        color: $gray;
+        margin-top: 10px;
+    }
+}
+.finish__btn {
+    margin-top: 60px;
+}

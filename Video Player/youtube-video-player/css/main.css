@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: #E4E9ED;
+}
+
+.wrapper .player {
+  max-width: 850px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.wrapper .player .video {
+  max-width: 100%;
+  border-radius: 30px 30px 0 0;
+}
+
+.wrapper .player .controls {
+  background: #2B3C5B;
+  border-radius: 0px 0px 30px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 40px;
+  margin-top: -5px;
+  height: 80px;
+}
+
+.wrapper .player .controls .controls__stop {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.wrapper .player .controls .controls__play {
+  cursor: pointer;
+  width: 50px;
+}
+
+.wrapper .player .controls .controls__play img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper .player .controls .controls__progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 555px;
+  width: 100%;
+  margin: 0 30px;
+}
+
+.wrapper .player .controls .controls__progress .progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.wrapper .player .controls .controls__time {
+  margin-left: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #E4E9ED;
+  padding-right: 5px;
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */
